@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" class="ng-app:angularOneApp" id="ng-app" ng-app="angularOneApp">
+<head>
+    <script>
+        document.documentElement.className = document.documentElement.className.replace('no-javascript', 'javascript');
+    </script>
+    <meta charset="utf-8" />
+    <title>外观设计</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="fragment" content="!">
+    <meta name="description" content="Description"/>
+    <meta name="viewport" content="width=device-width"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="scripts/patch/patch.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css" />
+    <!--[if lt IE 8 ]>
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome-ie7.min.css" />
+    <![endif]-->
+    <link rel="stylesheet" href="vendor/ueditor1_4_3/themes/default/css/ueditor.min.css"/>
+</head>
+<!--[if IE 7]><body class="ie7"><![endif]-->
+<!--[if IE 8]><body class="ie8"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if IE 10]><body class="ie10"><![endif]-->
+<!--[if IE 11]><body class="ie11"><![endif]-->
+<!--[if !IE]>-->
+<body>
+<!--<![endif]-->
+<div class="container" ng-controller="IndexCtrl">
+    <div ng-view></div>
+</div>
+
+<div class="pre-load" ng-class="{'pre-loaded':preLoaded}">&nbsp;</div>
+<script type="text/javascript" src="scripts/app.min.js"></script>
+<script type="text/javascript" src="vendor/ueditor1_4_3/ueditor.merge.min.js"></script>
+<script type="text/javascript" src="scripts/controllers/controllers.min.js"></script>
+</body>
+</html>

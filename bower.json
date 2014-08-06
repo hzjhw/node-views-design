@@ -1,0 +1,8 @@
+{
+    "name": "node-views-design",
+    "version": "1.1.9",
+    "author": "wyj",
+    "devDependencies":{
+        "angular-ui-router": "~0.2.8"
+    }
+}
